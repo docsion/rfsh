@@ -1,4 +1,4 @@
-# RFSH: Flows running made fast, safe, easy.
+# RFSH: Running your flows made fast, safe, easy.
 > a.k.a @RUNFLOW_SH
 
 ```
