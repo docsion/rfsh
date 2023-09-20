@@ -4,3 +4,5 @@
 ```
 $curl https://raw.githubusercontent.com/docsion/rfsh/main/i.sh | sh
 ```
+
+## --auth-phrase
