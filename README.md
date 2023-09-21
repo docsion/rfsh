@@ -1,5 +1,5 @@
 <a href="https://github.com/docsion/rfsh">
-  <img alt="RFSH – a Free-forever flows running tool." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner.png?raw=true">
+  <img alt="RFSH – a Free-forever flows running tool." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v2.png?raw=true">
   <h1 align="center">RFSH</h1>
 </a>
 
