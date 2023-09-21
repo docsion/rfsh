@@ -61,7 +61,7 @@ Options:
 ### --auth-phrase
 > Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
 
-You can use [free --auth-phrase](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) 🙏
+You can use [free --auth-phrase](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
 
 ## Support
 - Beast. D <beast@docsion.com>
