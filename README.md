@@ -53,6 +53,7 @@ Options:
    --output value, -o value         Output file location
    --concurrent value               Number of concurrent workers (default: 4)
    --retries value                  Number of retries on failure (default: 0)
+   --dry-run                        Only print the script to --output that would be execute, without executing it.
    --report-remote-stream value     *supercharge* Send reports to remote stream. Support: telegram
    --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots
    --report-telegram-channel value  Telegram Channel.
