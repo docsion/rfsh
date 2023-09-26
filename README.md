@@ -65,5 +65,11 @@ Options:
 
 You can use [free --auth-phrase](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
 
+## Sample
+### Basic
+ ```
+curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/6ee99b1a-5c4b-11ee-9340-f297ad799bdb.sh | sh
+```
+
 ## Support
 - Beast. D <beast@docsion.com>
