@@ -27,6 +27,7 @@ Commands:
    version  Show the version
 
 Options:
+   --generate-job       Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
    --auth-phrase value  Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
 
 Author:
