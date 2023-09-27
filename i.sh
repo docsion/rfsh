@@ -1,7 +1,6 @@
 #!/bin/sh
 set -e
 
-echo
 echo "Hey @RUNFLOW_SH here!"
 echo
 RELEASES_URL="https://github.com/docsion/rfsh/releases"
