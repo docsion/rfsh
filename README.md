@@ -14,7 +14,7 @@ At the first point of view, I want to create a tool which can help our team run 
 
 To me, the first ability of good software must have is privacy matter, then the basic needs should be fulfilled. I want to create a good software and I don't want to make rich by charging on things running on your own resources (your computer, your sever, your cloud,...). So basically, RFSH will be free-forever for usage.
 
-You can put a .csv file, a bash script as template file, rfsh will take care the rest, then you will receive the cleary reports after all. Thing happens on your machine, safe and sound.
+You can put a .csv file, a bash script as template file, RFSH will take care the rest, then you will receive the cleary reports after all. Thing happens on your machine, safe and sound.
 
 For **supercharge** features, you must incluce the [--auth-phrase](#--auth-phrase). The free version of it will have shorter life-time, you can renew it anytime, free & forever.
 
