@@ -18,7 +18,6 @@ if [[ -z "$VERSION" ]]; then
   exit 1
 fi
 
-# Download
 TMP_DIR="$(mktemp -d)"
 trap "rm -rf \"$TMP_DIR\"" EXIT INT TERM
 OS="$(uname -s)"
@@ -37,15 +36,10 @@ if [[ ! -a "$TMP_DIR/$TAR_FILE" ]]; then
 exit
 fi
 
-# Install
 tar -xf "$TMP_DIR/$TAR_FILE" -C "$TMP_DIR"
 mv "$TMP_DIR/runflow_sh" ./runflow
 echo "[RFSH] Runflow has been installed"
 echo
-
-# Launch
-echo "[RFSH] Launch rfsh" 
-echo
-echo $(pwd)/runflow "$@"
+echo "[RFSH] Launch rfsh" "$"$(pwd)/runflow "$@"
+echo 
 $(pwd)/runflow "$@"
-echo
