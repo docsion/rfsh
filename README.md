@@ -14,7 +14,7 @@ At the first point of view, I want to create a tool which can help our team run 
 
 To me, the first ability of good software is privacy matter, then the basic needs should be fulfilled. I want to create a good software and I don't want to make rich by charging on things running on your own resources (your computer, your sever, your cloud,...). So basically, RFSH will be free-forever for usage.
 
-You can put a .csv file, a bash script as template file, RFSH will take care the rest, then you will receive the cleary reports after all. Thing happens on your machine, safe and sound.
+You can put a .csv file, a bash script as template file, RFSH will take care the rest, then you will receive the cleary reports after all. Things happen on your machine, safe and sound.
 
 For **supercharge** features, you must incluce the [--auth-phrase](#--auth-phrase). You can renew it anytime, free & forever.
 
@@ -87,7 +87,7 @@ Options:
 ### --auth-phrase
 > Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
 
-You can use [free --auth-phrase](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
+You can find the --auth-phrase [here](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
 
 ## Support
 - Beast. D <beast@docsion.com>
