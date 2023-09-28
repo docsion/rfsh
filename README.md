@@ -12,19 +12,19 @@
 ## What is it?
 At the first point of view, I want to create a tool which can help our team run the bash script easier, faster, safer, with clearly reports, so I build RFSH.
 
-To me, the first ability of good software is privacy matter, then the basic needs should be fulfilled. I want to create a good software and I don't want to make rich by charging on things running on your own resources (your computer, your sever, your cloud,...). So basically, RFSH will be free-forever for usage.
+To me, the first ability of good software is privacy matter, then the basic needs should be fulfilled. I want to create a good software and I don't want to make rich by charging on things running on your own resources (your computer, your server, your cloud,...). So basically, RFSH will be free-forever for usage.
 
-You can put a .csv file, a bash script as template file, RFSH will take care the rest, then you will receive the cleary reports after all. Things happen on your machine, safe and sound.
+You can put a .csv file, a bash script as a template file, RFSH will take care the rest, then you will receive the clearly reports after all. Things happen on your machine, safe and sound.
 
-For **supercharge** features, you must incluce the [--auth-phrase](#--auth-phrase). You can renew it anytime, free & forever.
+For **supercharge** features, you must include the [--auth-phrase](#--auth-phrase). You can renew it anytime, free & forever.
 
 ## Features
 1. Concurrently run a template with values from a CSV file [link](#basic).
 2. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere [link](#help).
-3. Send reports to remote stream. Support: telegram (**supercharge**) [link](#basic).
+3. Send reports to remotely stream. Support: telegram (**supercharge**) [link](#basic).
 
 ## Sample
-Run the following script to execute the basic sample. You can find script, input, template at [sample](https://github.com/docsion/rfsh/tree/main/sample):
+Run the following script to execute the basic sample. You can find the script, input data, template at [sample](https://github.com/docsion/rfsh/tree/main/sample):
  ```
 curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/f6f89824-5d10-11ee-8c9d-f297ad799bdb.sh | sh
 #
@@ -73,15 +73,15 @@ Description:
    More info: https://github.com/docsion/rfsh/tree/main/sample
 
 Options:
-   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!).
-   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}}).
+   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!)
+   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}})
    --output value, -o value         Output file location
    --concurrent value               Number of concurrent workers (default: 4)
    --retries value                  Number of retries on failure (default: 0)
-   --dry-run                        Only print the script to --output that would be execute, without executing it.
-   --report-remote-stream value     *supercharge* Send reports to remote stream. Support: telegram
+   --dry-run                        Only print the script to --output that would execute, without executing it
+   --report-remote-stream value     *supercharge* Send reports to remotely stream. Support: telegram
    --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots
-   --report-telegram-channel value  Telegram Channel.
+   --report-telegram-channel value  Telegram Channel
 ```
 
 ### --auth-phrase
