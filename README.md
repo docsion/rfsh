@@ -34,39 +34,39 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/be918dae-6113-11
 
 Console output:
  ```
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |    736µs |    0% |       0 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |     88µs |    0% |       0 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |     90µs |    0% |       0 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |     90µs |    0% |       0 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |     89µs |    0% |       0 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     19ms |   12% |       1 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      3ms |   12% |       1 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     19ms |   25% |       2 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |      3ms |   12% |       1 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     21ms |   38% |       3 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |      4ms |   25% |       2 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      4ms |   25% |       2 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     23ms |   50% |       4 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      4ms |   38% |       3 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |      4ms |   50% |       4 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      4ms |   50% |       4 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |       RUN  |      4ms |   50% |       4 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     37ms |   62% |       5 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      6ms |   62% |       5 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     39ms |   75% |       6 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      7ms |   75% |       6 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     41ms |   88% |       7 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      7ms |   88% |       7 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     43ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |      GOOD  |      7ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample.out.csv
 
-[RFSH] 2023/10/02 - 17:47:50 |    REPORT  |     44ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+[RFSH] 2023/10/02 - 18:09:46 |    REPORT  |      7ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample.out.csv
 ```
 
 ## Install
