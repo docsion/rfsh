@@ -32,6 +32,43 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/f6f89824-5d10-11
 # |- $runflow --generate-job basic -t sample/sample.template -i sample/sample.csv -o sample.out.csv --retries 2
 ```
 
+Console output:
+ ```
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |    736µs |    0% |       0 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |      1ms |    0% |       0 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     19ms |   12% |       1 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     19ms |   25% |       2 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     21ms |   38% |       3 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     23ms |   50% |       4 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |       RUN  |     23ms |   50% |       4 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     37ms |   62% |       5 ✓  |       0 𐄂  |      3 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     39ms |   75% |       6 ✓  |       0 𐄂  |      2 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     41ms |   88% |       7 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |      GOOD  |     43ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+
+[RFSH] 2023/10/02 - 17:47:50 |    REPORT  |     44ms |  100% |       8 ✓  |       0 𐄂  |      0 ‣ |      0 ↩︎ | sample/sample.out.csv
+```
+
 ## Install
 Run the following install script to install the latest version of RFSH:
 ```
