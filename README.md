@@ -101,24 +101,24 @@ Copyright:
 ### basic
 ```
 $ ./runflow basic
-runflow basic - Execute a basic flow
+runflow basic - Execute a basic flow .
 Usage: runflow basic [options...]
 
 Description:
-   Concurrently run a template with values from a CSV file.
-   Example: $runflow basic -i sample.csv -t sample.template -o sample.out.csv
+   Concurrently run a template with values from a CSV file .
+   Example: $runflow basic -i sample.csv -t sample.template
    More info: https://github.com/docsion/rfsh/tree/main/sample
 
 Options:
-   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!)
-   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}})
-   --output value, -o value         Output file location
-   --concurrent value               Number of concurrent workers (default: 4)
-   --retries value                  Number of retries on failure (default: 0)
-   --dry-run                        Only print the script to --output that would execute, without executing it
-   --report-remote-stream value     *supercharge* Send reports to remotely stream. Support: telegram
-   --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots
-   --report-telegram-channel value  Telegram Channel
+   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!). Support: file, url (http/https) .
+   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}}). Support: file, url (http/https) .
+   --output value, -o value         Output file location .
+   --concurrent value               Number of concurrent workers . (default: 4)
+   --retries value                  Number of retries on failure . (default: 0)
+   --dry-run                        Only print the script to --output that would execute, without executing it .
+   --report-remote-stream value     *supercharge* Send reports to remotely stream. Support: telegram .
+   --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots .
+   --report-telegram-channel value  Telegram channel .
 ```
 
 ### --auth-phrase
