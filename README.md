@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  A Free-forever flows running tool. 💥
+  Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable .
 </p>
 
 > a.k.a @RUNFLOW_SH
