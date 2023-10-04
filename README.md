@@ -20,7 +20,7 @@ You put a .csv file, a bash script as a template file, RFSH will take care the r
 For **supercharge** features, you must include the [--auth-phrase](#--auth-phrase). You can renew it anytime, free & forever.
 
 ## Features
-1. Concurrently run a template with values from a CSV file, url. [link](#basic).
+1. Concurrently run a template with values from a CSV file, url, github, google spreadsheets. [link](#basic).
 2. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere [link](#help).
 3. Send reports to remotely stream. Support: telegram (**supercharge**) [link](#basic).
 
