@@ -130,7 +130,7 @@ Options:
 You can find the --auth-phrase [here](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
 
 ### Github
-You can import input(-i) / template(-t) file from Github repo. Please note that, if you use private Github repository, please set `GITHUB_TOKEN` environment variable before running $runflow command. For example:
+You can import an input or a template file from Github repository. Note that if you use private repository, please set `GITHUB_TOKEN` environment variable before running $runflow command. For example:
  ```
 GITHUB_TOKEN=<token> runflow basic -i https://github.com/my/privaterepo/blob/main/sample/sample.csv -t https://github.com/docsion/rfsh/blob/main/sample/sample.template
 ```
