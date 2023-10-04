@@ -1,13 +1,14 @@
 <a href="https://github.com/docsion/rfsh">
-  <img alt="RFSH – a Free-forever flows running tool." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v2.png?raw=true">
-  <h1 align="center">RFSH</h1>
+  <img alt="RFSH: Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable ." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v3.svg?raw=true">
+  <h1 align="left">RFSH</h1>
 </a>
 
-<p align="center">
+> a.k.a @RUNFLOW_SH
+
+<p align="left">
   Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable .
 </p>
 
-> a.k.a @RUNFLOW_SH
 
 ## What is it?
 At the first point of view, I want to create a tool which can help our team run the bash script easier, faster, safer, with clearly reports, so I build RFSH.
