@@ -6,7 +6,7 @@
 > a.k.a @RUNFLOW_SH
 
 <p align="left">
-  Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable .
+  Supercharge your shell scripts - Run shell scripts in batch, concurrently, fully customized with variable .
 </p>
 
 
