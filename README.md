@@ -3,7 +3,10 @@
   <h1 align="left">RFSH</h1>
 </a>
 
-> a.k.a @RUNFLOW_SH
+[![Releases](https://img.shields.io/github/v/release/docsion/rfsh.svg?style=flat?maxAge=86400)](https://github.com/docsion/rfsh/releases)
+[![Downloads](https://img.shields.io/github/downloads/docsion/rfsh/total?maxAge=3600)](https://github.com/docsion/rfsh#install)
+
+> @RUNFLOW_SH
 
 <p align="left">
   Supercharge your shell scripts - Run shell scripts in batch, concurrently, fully customized with variable .
