@@ -81,22 +81,22 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/i.sh | sh
 ### help
 ```
 $ ./runflow help
-runflow - Running your flows made fast, safe, easy.
+runflow - Supercharge your shell scripts - Run shell scripts in batch, concurrently, fully customized with variable .
 Usage: runflow [options...] command [options...]
 
 Commands:
-   basic    Execute a basic flow
-   version  Show the version
+   basic    Execute a basic flow .
+   version  Show the version .
 
 Options:
-   --generate-job       Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
-   --auth-phrase value  Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
+   --generate-job       Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere .
+   --auth-phrase value  Provide an auth phrase to automatically authenticate the running flow as your *supercharge* .
 
 Author:
    Beast. D <beast@docsion.com>
 
 Copyright:
-   (c) 2023 Docsion Team.
+   (c) 2023 Docsion Team .
 ```
 
 ### basic
@@ -111,8 +111,8 @@ Description:
    More info: https://github.com/docsion/rfsh/tree/main/sample
 
 Options:
-   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!). Support: file, url (http/https) .
-   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}}). Support: file, url (http/https) .
+   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!). Support: file, url (http/https), github, spreadsheets (public shares) .
+   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}}). Support: file, url (http/https), github .
    --output value, -o value         Output file location .
    --concurrent value               Number of concurrent workers . (default: 4)
    --retries value                  Number of retries on failure . (default: 0)
@@ -126,6 +126,14 @@ Options:
 > Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
 
 You can find the --auth-phrase [here](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
+
+### Github
+You can import input(-i) / template(-t) file from Github repo. Please note that, if you use private Github repository, please set `GITHUB_TOKEN` environment variable before running $runflow command. For example:
+ ```
+GITHUB_TOKEN=<token> runflow basic -i https://github.com/my/privaterepo/blob/main/sample/sample.csv -t https://github.com/docsion/rfsh/blob/main/sample/sample.template
+```
+
+You can find Github guideline [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) to generate new token.
 
 ## Support
 - Beast. D <beast@docsion.com>
