@@ -113,11 +113,13 @@ Usage: runflow basic [options...]
 Description:
    Concurrently run a template with values from a CSV file .
    Example: $runflow basic -i sample.csv -t sample.template
-   More info: https://github.com/docsion/rfsh/tree/main/sample
+   More info: https://github.com/docsion/rfsh#sample
 
 Options:
-   --input value, -i value          CSV file with values in comma-separated format. Headers define variable names (e.g., id,content<new line>1,hey @RUNFLOW_SH here!). Support: file, url (http/https), github, spreadsheets (public shares) .
-   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}} (e.g., echo {{id}} {{content}}). Support: file, url (http/https), github .
+   --input value, -i value          CSV file with values in comma-separated format. Headers define variable_name(s). Support: file, url (http/https), github, spreadsheets .
+   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}}. Support: file, url (http/https), github .
+   --test-template value            Location of the Bash script test template, which use to validate running result. More info: https://github.com/docsion/rfsh#--test-template .
+   --export-template value          Location of the Bash script export template, which use to customize output file. More info: https://github.com/docsion/rfsh#--export-template .
    --output value, -o value         Output file location .
    --concurrent value               Number of concurrent workers . (default: 4)
    --retries value                  Number of retries on failure . (default: 0)
@@ -131,6 +133,38 @@ Options:
 > Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
 
 You can find the --auth-phrase [here](auth_phrase.txt) for the period running flows (phrase will be expired in 3 months). Or Buy me a coffee ($1) with [ a Lifetime --auth-phrase](https://docsion.com/product/rfsh) (481/500 remains, thanks to 19 supporters 🙏)
+
+### --test-template
+You can write test with --test-template. Runflow pass the result as input data to your test template file after running script. Use `exit` command to mark the result as bad. Please note that, the input result is base64 encoded as default. Find more [here](https://github.com/docsion/rfsh/blob/main/sample/sample.test.template)
+ ```
+BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
+
+# DECODE BEFORE USING $echo $BASE64_RESULT_IN | base64 --decode
+RESULT_IN=$(echo $BASE64_RESULT_IN | base64 --decode)
+
+# TEST START HERE
+if [[ ! "$RESULT_IN" =~ "{{id}}" ]];
+then 
+	echo "ops!!!" >&2 # print to stderr
+	exit 1
+fi
+
+echo "good" "{{content}}"
+```
+
+### --export-template
+If you want to add more column the export .csv (--output) file. Use --export-template options. You receive the input JSON result, customize then reply the output as JSON with format: `{"new_column_name": "new_column_value"}`. Please note that, the input result is base64 encoded as default. Find more [here](https://github.com/docsion/rfsh/blob/main/sample/sample.export.template).
+ ```
+BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
+
+# DECODE BEFORE USING $echo ${BASE64_RESULT_IN} | base64 --decode
+
+# CUSTOM EXPORT START HERE
+value="ohhh!"
+
+# THEN OUTPUT JSON
+echo '{"new_custom_column_name": "'$value'"}'
+```
 
 ### Github
 You can import an input or a template file from Github repository. Note that if you use private repository, please set `GITHUB_TOKEN` environment variable before running $runflow command. For example:
