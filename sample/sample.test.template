@@ -1,0 +1,13 @@
+BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
+
+# DECODE BEFORE USING $echo $BASE64_RESULT_IN | base64 --decode
+RESULT_IN=$(echo $BASE64_RESULT_IN | base64 --decode)
+
+# TEST START HERE
+if [[ ! "$RESULT_IN" =~ "{{id}}" ]];
+then 
+	echo "ops!!!" >&2 # print to stderr
+	exit 1
+fi
+
+echo "good" "{{content}}"

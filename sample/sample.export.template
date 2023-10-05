@@ -1,0 +1,9 @@
+BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
+
+# DECODE BEFORE USING $echo ${BASE64_RESULT_IN} | base64 --decode
+
+# CUSTOM EXPORT START HERE
+value="ohhh!"
+
+# THEN OUTPUT JSON
+echo '{"new_custom_column_name": "'$value'"}'
