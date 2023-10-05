@@ -132,7 +132,7 @@ Options:
 ## Flag
 
 ### --test-template
-You can write test with --test-template. Runflow pass the result as input data to your test template file after running script. Use `exit` command to mark the result as bad. Please note that, the input result is base64 encoded as default.
+You can write test with --test-template. Runflow will pass the result as input data (stdin) to your test template file after running script. Please note that, the input result is base64 encoded as default. Use `exit` command to mark the result as bad. You can also retrive the variable with format `{{variable_name}}` .
 
 Run the following job script to explore how it works:
  ```
@@ -160,7 +160,7 @@ echo "good" "{{content}}"
 ```
 
 ### --export-template
-If you want to add more column the export .csv (--output) file. Use --export-template options. You receive the input JSON result, customize then reply the output as JSON with format: `{"new_column_name": "new_column_value"}`. Please note that, the input result is base64 encoded as default. 
+If you want to add more column the export .csv (--output) file. Use --export-template options. You receive the input JSON result (via stdin), customize then reply the output as JSON with format: `{"new_column_name": "new_column_value"}`. Please note that, the input result is base64 encoded as default. 
 
 Run the following job script to explore how it works:
  ```
