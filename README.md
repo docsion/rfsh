@@ -108,6 +108,7 @@ Commands:
 Options:
    --generate-job       Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere .
    --auth-phrase value  Provide an auth phrase to automatically authenticate the running flow as your *supercharge* .
+   --meme               *Supercharge* Show meme at the end of reports .
 
 Author:
    Beast. D <beast@docsion.com>
@@ -136,7 +137,7 @@ Options:
    --concurrent value               Number of concurrent workers . (default: 4)
    --retries value                  Number of retries on failure . (default: 0)
    --dry-run                        Only print the script to --output that would execute, without executing it .
-   --report-remote-stream value     *supercharge* Send reports to remotely stream. Support: telegram .
+   --report-remote-stream value     Send reports to remotely stream. Support: telegram .
    --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots .
    --report-telegram-channel value  Telegram channel .
 ```
