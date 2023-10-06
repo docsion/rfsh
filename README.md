@@ -1,5 +1,5 @@
 <a href="https://github.com/docsion/rfsh">
-  <img alt="RFSH: Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable ." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v5.png">
+  <img alt="RFSH: Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable ." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6.png">
   <h1 align="left">RFSH</h1>
 </a>
 
