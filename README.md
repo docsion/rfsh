@@ -20,8 +20,6 @@ To me, the first ability of good software is privacy matter. I want to create a 
 
 You put a .csv file, a bash script as a template file, RFSH will take care the rest, then you will receive the clearly reports after all. Things happen on your machine, safe and sound.
 
-For **supercharge** features, you must include the [--auth-phrase](#--auth-phrase). You can renew it anytime, free & forever.
-
 ## Features
 1. Concurrently run a template with values from a CSV file, url, github, google spreadsheets. [link](#basic).
 2. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere [link](#help).
