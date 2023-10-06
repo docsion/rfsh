@@ -1,7 +1,7 @@
 <a href="https://github.com/docsion/rfsh">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="ttps://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6_dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="ttps://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6.png">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6.png">
     <img alt="RFSH: Supercharge your shell scripts - Running shell scripts in batch, concurrently, fully customized with variable ." src="https://github.com/docsion/rfsh/blob/main/static/rfsh_banner_v6.png">
   </picture>
 
