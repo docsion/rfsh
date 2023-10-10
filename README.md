@@ -27,8 +27,8 @@ You put a .csv file, a bash script as a template file, RFSH will take care the r
 
 ## How it works?
 RFSH works by 3 simple steps:
-1. Parse your .csv file to a list of variable and its value, variable_name defined at the first row of the .csv file.
-2. Combine value + template file, by {{variable_name}} matching, to scripts.
+1. Parse your .csv file to a list of variable and its value, `variable_name` defined at the first row of the .csv file.
+2. Combine value + template file, by `{{variable_name}}` matching, to scripts.
 3. Run scripts concurrently.
 
 ## Features
