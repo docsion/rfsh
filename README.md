@@ -170,6 +170,7 @@ Commands:
 Options:
    --generate-job       Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere .
    --auth-phrase value  Provide an auth phrase to automatically authenticate the running flow as your *supercharge* .
+   --built-in           Print built-in functions .
    --meme               *Supercharge* Show meme at the end of reports .
 
 Author:
@@ -191,16 +192,16 @@ Description:
    More info: https://github.com/docsion/rfsh#sample
 
 Options:
-   --input value, -i value          CSV file with values in comma-separated format. Headers define variable_name(s). Support: file, url (http/https), github, spreadsheets .
-   --template value, -t value       Location of the Bash script template. Variables are in the format {{variable_name}}. Support: file, url (http/https), github .
-   --test-template value            Location of the Bash script test template, which use to validate running result. More info: https://github.com/docsion/rfsh#--test-template .
-   --export-template value          Location of the Bash script export template, which use to customize output file. More info: https://github.com/docsion/rfsh#--export-template .
-   --output value, -o value         Output file location .
+   --input file, -i file            CSV file with values in comma-separated format. Headers define variable_name(s). Support: file, url (http/https), github, spreadsheets .
+   --template file, -t file         Location of the template file. Variables are in the format {{variable_name}}. Support: file, url (http/https), github .
+   --output file, -o file           Location of the export file .
+   --test-template file             Location of the test template file, which use to validate running result. More info: https://github.com/docsion/rfsh#--test-template .
+   --export-template file           Location of the export template file, which use to customize output file. More info: https://github.com/docsion/rfsh#--export-template .
    --concurrent value               Number of concurrent workers . (default: 4)
    --retries value                  Number of retries on failure . (default: 0)
    --dry-run                        Only print the script to --output that would execute, without executing it .
    --report-remote-stream value     Send reports to remotely stream. Support: telegram .
-   --report-telegram-token value    Telegram Bot Token. More info: https://core.telegram.org/bots .
+   --report-telegram-token value    Telegram Bot Token. More info: https://github.com/docsion/rfsh#telegram .
    --report-telegram-channel value  Telegram channel .
 ```
 
