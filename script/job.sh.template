@@ -1,0 +1,58 @@
+#
+# RFSH Job
+
+echo
+echo "[RFSH] Job {{job_id}}"
+echo
+RUN_DIR="$(mktemp -d)"
+trap "rm -rf \"$RUN_DIR\"" EXIT INT TERM
+
+# install runflow
+runflow_sh=runflow
+if ! [ -x "$(command -v runflow)" ] || ! [[ "$(runflow version)" =~ "{{rfsh_version}}" ]]; then
+  echo '[RFSH] Downloading runflow...'
+  echo
+  pushd ${RUN_DIR} > /dev/null 2>&1 && \
+    n=0 && \
+      until [ "$n" -ge 3 ]; do
+      curl -C - --retry 3 -sL https://raw.githubusercontent.com/docsion/rfsh/main/i.sh | VERSION={{rfsh_version}} sh && break
+      n=$((n+1))
+      sleep 15
+      done && \
+    popd > /dev/null 2>&1
+  if [[ ! -a ${RUN_DIR}/runflow ]]; then
+    echo '[*] Failed to download runflow. More info: https://github.com/docsion/rfsh'
+    echo
+    exit
+  fi
+  runflow_sh=${RUN_DIR}/runflow
+else
+  echo [RFSH] Found runflow {{rfsh_version}} at $(which runflow)
+  echo
+fi
+
+# --input
+echo '[RFSH] Building input...'
+echo
+echo {{import_input_content}} | base64 --decode > ${RUN_DIR}/input
+
+# --template
+echo '[RFSH] Building template...'
+echo
+echo {{template_content}} | base64 --decode > ${RUN_DIR}/template
+
+# --test-template
+echo '[RFSH] Building test template...'
+echo
+echo {{test_template_content}} | base64 --decode > ${RUN_DIR}/testtemplate
+
+# --export-template
+echo '[RFSH] Building exports template...'
+echo
+echo {{export_template_content}} | base64 --decode > ${RUN_DIR}/exporttemplate
+
+# run
+echo '[RFSH] Running job...'
+echo
+${runflow_sh} {{command}}
+echo '[RFSH] Done'
