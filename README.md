@@ -271,5 +271,8 @@ GITHUB_TOKEN=<token> runflow basic -i https://github.com/my/privaterepo/blob/mai
 
 You can find Github guideline [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) to generate new token.
 
+## Telegram
+You can send reports to Telegram with Telegram bots, check Telegram guidline [here](https://core.telegram.org/bots). Please note that, the channel must be in public.
+
 ## Support
 - Beast. D <beast@docsion.com>
