@@ -42,3 +42,4 @@ mv "$TMP_DIR/runflow_sh" ./runflow
 echo "[RFSH] Runflow has been installed"
 echo
 echo "[RFSH] Done ✓" "$" $(pwd)/runflow
+echo
