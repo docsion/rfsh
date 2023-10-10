@@ -41,7 +41,7 @@ RFSH works by 3 simple steps:
 
 ## Sample
 ### Basic
-Run the following script to execute the basic sample. You can find the script, input data, template at [sample](https://github.com/docsion/rfsh/tree/main/sample):
+Run the following script to execute the basic job sample. You can find the script, input data, template at [sample](https://github.com/docsion/rfsh/tree/main/sample):
  ```
 curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/30969f5a-6369-11ee-a32e-f297ad799bdb.sh | sh
 #
