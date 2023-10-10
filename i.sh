@@ -40,4 +40,5 @@ fi
 tar -xf "$TMP_DIR/$TAR_FILE" -C "$TMP_DIR"
 mv "$TMP_DIR/runflow_sh" ./runflow
 echo "[RFSH] Runflow has been installed"
-echo "Done ✓" "$"$(pwd)/runflow
+echo
+echo "[RFSH] Done ✓" "$" $(pwd)/runflow
