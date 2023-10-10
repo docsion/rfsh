@@ -196,7 +196,7 @@ You can find the sample at [sample/sample.template](https://github.com/docsion/r
 echo "hello bash runner {{id}} {{content}}"
 ```
 
-You can also use built-in functions in template file, likes [sample/built-in/item.template.sh](https://github.com/docsion/rfsh/blob/main/sample/built-in/item.template.sh):
+You can also use [built-in](https://github.com/docsion/rfsh/blob/main/script/built_in.sh) functions in template file, likes [sample/built-in/item.template.sh](https://github.com/docsion/rfsh/blob/main/sample/built-in/item.template.sh):
 
   ```
 rf_http https://hacker-news.firebaseio.com/v0/item/{{id}}.json
