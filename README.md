@@ -187,8 +187,23 @@ Options:
 
 ## Flag
 
+### --template
+Template is the require bash script when using RFSH. It's a bash script file, so you can write anything you want in bash. RFSH will pass the value from `--input` to your `--template` by matching `{{variable_name}}`. 
+
+You can find the sample at [sample/sample.template](https://github.com/docsion/rfsh/blob/main/sample/sample.template):
+
+ ```
+echo "hello bash runner {{id}} {{content}}"
+```
+
+You can also use built-in functions in template file, likes [sample/built-in/item.template.sh](https://github.com/docsion/rfsh/blob/main/sample/built-in/item.template.sh):
+
+  ```
+rf_http https://hacker-news.firebaseio.com/v0/item/{{id}}.json
+```
+
 ### --test-template
-You can write test with --test-template. Runflow will pass the result as input data (stdin) to your test template file after running script. Please note that, the input result is base64 encoded as default. Use `exit` command to mark the result as bad. You can also retrive the variable with format `{{variable_name}}` .
+You can write test with `--test-template`. Runflow will pass the result as input data (stdin) to your test template file after running script. Please note that, the input result is base64 encoded as default. Use `exit` command to mark the result as bad. You can also retrive the variable with format `{{variable_name}}` .
 
 Run the following job script to explore how it works:
  ```
