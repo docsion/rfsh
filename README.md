@@ -198,7 +198,7 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/30969f5a-6369-11
 # |- $runflow --generate-job basic -i sample/sample.csv -t sample/sample.template --test-template sample/sample.test.template --export-template sample/sample.export.template
 ```
 
-Sample test template [here](https://github.com/docsion/rfsh/blob/main/sample/sample.test.template):
+You can find sample test at [sample/sample.test.template](https://github.com/docsion/rfsh/blob/main/sample/sample.test.template):
  ```
 BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
 
@@ -215,6 +215,32 @@ fi
 echo "good" "{{content}}"
 ```
 
+Or using built-in function [sample/built-in/item.test.template.sh](https://github.com/docsion/rfsh/blob/main/sample/built-in/item.test.template.sh)
+ ```
+#
+# Use built-in functions
+# rf_asserts
+#   |- https://github.com/docsion/rfsh/blob/94c245d/script/built_in.sh#L46
+# rf_result_in
+#  |- https://github.com/docsion/rfsh/blob/94c245d/script/built_in.sh#L65
+
+# TEST BEGIN HERE!
+# http status
+rf_asserts "Status 200" \
+	200 \
+	$(rf_result_in | jq -r '.response_code')
+
+# body > id
+rf_asserts "Id {{id}}" \
+	{{id}} \
+	$(cat $(rf_result_in | jq -r '.response') | jq -r '.id')
+
+# body > type
+rf_asserts "Type {{type}}" \
+	{{type}} \
+	$(cat $(rf_result_in | jq -r '.response') | jq -r '.type')
+```
+
 ### --export-template
 If you want to add more column the export .csv (--output) file. Use --export-template options. You receive the input JSON result (via stdin), customize then reply the output as JSON with format: `{"new_column_name": "new_column_value"}`. Please note that, the input result is base64 encoded as default. 
 
@@ -226,7 +252,7 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/30969f5a-6369-11
 # |- $runflow --generate-job basic -i sample/sample.csv -t sample/sample.template --test-template sample/sample.test.template --export-template sample/sample.export.template
 ```
 
-Sample export template [here](https://github.com/docsion/rfsh/blob/main/sample/sample.export.template):
+You can find sample test at [sample/sample.export.template](https://github.com/docsion/rfsh/blob/main/sample/sample.export.template):
  ```
 BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
 
