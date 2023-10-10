@@ -98,26 +98,6 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/hn/827c2d38-6695
 ```
 Output:
  ```
-[RFSH] Job 827c2d38-6695-11ee-9663-f297ad799bdb
-
-[RFSH] Found runflow v0.2.5 at /usr/local/bin/runflow
-
-[RFSH] Building input...
-
-[RFSH] Building template...
-
-[RFSH] Building test template...
-
-[RFSH] Building exports template...
-
-[RFSH] Running job...
-
-[RFSH] 2023/10/09 - 18:20:54 |      INFO  | Building input /var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.6CDbqMGV/input ...
-
-[RFSH] 2023/10/09 - 18:20:54 |      INFO  | Building template /var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.6CDbqMGV/template ...
-
-[RFSH] 2023/10/09 - 18:20:54 |      INFO  | Building test template /var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.6CDbqMGV/testtemplate ...
-
 [RFSH] 2023/10/09 - 18:20:54 |       RUN  |    206µs |    0% |       0 ✓  |       0 𐄂  |      1 ‣ |      0 ↩︎ | /var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/374584017.csv
 
 [RFSH] 2023/10/09 - 18:20:54 |       RUN  |    218µs |    0% |       0 ✓  |       0 𐄂  |      4 ‣ |      0 ↩︎ | /var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/374584017.csv
@@ -258,6 +238,9 @@ value="ohhh!"
 # THEN OUTPUT JSON
 echo '{"new_custom_column_name": "'$value'"}'
 ```
+
+### --built-in
+RFSH support built-in functions to help you easier on writing template, test template. You can find the latest built-in functions at [script/built_in.sh](https://github.com/docsion/rfsh/blob/main/script/built_in.sh). And, check it out [sample/built-in](https://github.com/docsion/rfsh/tree/main/sample/built-in) to understand how easy it is.
 
 ### --auth-phrase
 > Provide an auth phrase to automatically authenticate the running flow as your *supercharge*
