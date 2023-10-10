@@ -1,3 +1,4 @@
+
 #!/bin/bash
 #
 # RFSH built-in functions.
@@ -100,7 +101,7 @@ rf_http() {
 	  | jq '{"response_code": .response_code} + {"response": .filename_effective}'
 
   return_codes=( "${PIPESTATUS[@]}" )
-  if (( return_codes[0] == 1 )); then
+  if (( return_codes[0] != 0 )); then
     exit ${return_codes[0]}
   fi
 }
