@@ -41,7 +41,7 @@ RFSH works by 3 simple steps:
 
 ## Sample
 
-[![RFSH Sample - HN APIs test](https://github.com/docsion/rfsh/blob/main/sample/built-in/Screenshot%202023-10-10%20at%2017.25.52.png)](https://github.com/docsion/rfsh/blob/main/sample/built-in)
+[![RFSH Sample - HN APIs test](https://github.com/docsion/rfsh/blob/main/sample/hn/Screenshot%202023-10-10%20at%2017.32.21.png)](https://github.com/docsion/rfsh/blob/main/sample/built-in)
 
 ### Basic
 Run the following script to execute the basic job sample. You can find the script, input data, template at [sample](https://github.com/docsion/rfsh/tree/main/sample):
