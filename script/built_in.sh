@@ -1,7 +1,7 @@
-
 #!/bin/bash
 #
 # RFSH built-in functions.
+# Home: https://github.com/docsion/rfsh
 
 #######################################
 # Check require command
@@ -20,6 +20,7 @@ rf_require() {
 	msg="${msg} More info: ${more}"
     fi
     rf_err ${msg}
+    return 1
   fi
 }
 
@@ -32,7 +33,6 @@ rf_require() {
 #######################################
 rf_err() {
   echo "$*" >&2 # print to stderr
-  exit 1
 }
 
 #######################################
@@ -51,6 +51,7 @@ rf_asserts() {
   if [[ ! "${expect}" == "${actual}" ]];
   then
     rf_err Test \"${name}\" failed . Expect "${expect}". Actual "${actual}."
+    return 1
   fi
 }
 
@@ -67,6 +68,7 @@ rf_result_in() {
   if [[ -z $RESULT_IN ]];
   then
     rf_err "RESULT_IN is required"
+    return 1
   fi
 
   echo $RESULT_IN
@@ -102,7 +104,7 @@ rf_http() {
 
   return_codes=( "${PIPESTATUS[@]}" )
   if (( return_codes[0] != 0 )); then
-    exit ${return_codes[0]}
+    return ${return_codes[0]}
   fi
 }
 
