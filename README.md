@@ -154,10 +154,8 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/30969f5a-6369-11
 
 You can find sample test at [sample/sample.test.template](https://github.com/docsion/rfsh/blob/main/sample/sample.test.template):
  ```
-BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
-
-# DECODE BEFORE USING $echo $BASE64_RESULT_IN | base64 --decode
-RESULT_IN=$(echo $BASE64_RESULT_IN | base64 --decode)
+# RESULT FROM SCRIPT RUNS
+# $RESULT_IN
 
 # TEST START HERE
 if [[ ! "$RESULT_IN" =~ "{{id}}" ]];
