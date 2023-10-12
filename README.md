@@ -111,9 +111,9 @@ Description:
    More info: https://github.com/docsion/rfsh#sample
 
 Options:
-   --input file, -i file            CSV file with values in comma-separated format. Headers define variable_name(s). Support: file, url (http/https), github, spreadsheets .
-   --template file, -t file         Location of the template file. Variables are in the format {{variable_name}}. Support: file, url (http/https), github .
-   --output file, -o file           Location of the export file .
+   -i file, --input file            CSV file with values in comma-separated format. Headers define variable_name(s). Support: file, url (http/https), github, spreadsheets . (default: "std")
+   -t file, --template file         Location of the template file. Variables are in the format {{variable_name}}. Support: file, url (http/https), github .
+   -o file, --output file           Location of the export file .
    --test-template file             Location of the test template file, which use to validate running result. More info: https://github.com/docsion/rfsh#--test-template .
    --export-template file           Location of the export template file, which use to customize output file. More info: https://github.com/docsion/rfsh#--export-template .
    --concurrent value               Number of concurrent workers . (default: 4)
@@ -188,9 +188,8 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/30969f5a-6369-11
 
 You can find sample test at [sample/sample.export.template](https://github.com/docsion/rfsh/blob/main/sample/sample.export.template):
  ```
-BASE64_RESULT_IN=$(cat) # RESULT FROM SCRIPT RUNS
-
-# DECODE BEFORE USING $echo ${BASE64_RESULT_IN} | base64 --decode
+# RESULT FROM SCRIPT RUNS
+# $RESULT_IN
 
 # CUSTOM EXPORT START HERE
 value="ohhh!"
