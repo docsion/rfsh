@@ -71,7 +71,7 @@ rf_result_in() {
     return 1
   fi
 
-  echo $RESULT_IN
+  echo "${RESULT_IN}"
 }
 
 #######################################
@@ -100,7 +100,7 @@ rf_curl() {
 rf_http() {
   rf_require jq https://github.com/jqlang/jq \
 	&& rf_curl "$@" \
-	  | jq '{"response_code": .response_code} + {"response": .filename_effective}'
+	  | jq -c '{"response_code": .response_code} + {"response": .filename_effective}'
 
   return_codes=( "${PIPESTATUS[@]}" )
   if (( return_codes[0] != 0 )); then
