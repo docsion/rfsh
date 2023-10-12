@@ -1,0 +1,8 @@
+id,type,RFSH_status,RFSH_good,RFSH_bad,RFSH_test_good,RFSH_test_bad
+121003,story,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.1CBWVwXa""}",,,
+192327,job,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.oJf4YpJ4""}",,,
+2921983,comment,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.Qe4jnCNv""}",,,
+8863,story,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.1AWjwzuV""}",,,
+126809,poll,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.y1LoiwlS""}",,,
+8863,failed-story,bad,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.kd46BAY1""}",,,"Test ""Type failed-story"" failed . Expect failed-story. Actual story.
+exit status 1"

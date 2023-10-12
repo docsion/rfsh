@@ -1,7 +1,6 @@
 # RESULT FROM SCRIPT RUNS
 # $RESULT_IN
 
-# TEST BEGIN HERE!
 # http status
 test_case="Status 200"
 if [[ ! "$(echo $RESULT_IN | jq '.response_code')" == 200 ]];

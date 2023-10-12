@@ -29,7 +29,7 @@ rf_require() {
 # Arguments:
 #   Log to show, a string.
 # Returns:
-#   Writes log to stderror
+#   Writes log to stderror, then return 1.
 #######################################
 rf_err() {
   echo "$*" >&2 # print to stderr
