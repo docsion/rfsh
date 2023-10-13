@@ -58,6 +58,12 @@ RFSH works by 3 simple steps:
   </tr>
 </table>
 
+<details>
+  <summary> 🎥 Sample Test Runs 🏃‍♂️💨</summary>
+  <hr>
+  <video src="https://user-images.githubusercontent.com/4256921/2e10e0ae-955c-4963-83a0-eab70c66ce9c.mp4" type="video/mp4" autoplay="autoplay" controls=0 loop></video>
+ </details>
+
 ### Basic
  ```
 runflow basic -i sample/sample.csv -t sample/sample.template
