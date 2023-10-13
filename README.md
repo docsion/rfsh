@@ -61,7 +61,7 @@ RFSH works by 3 simple steps:
 <details>
   <summary> 🎥 Sample Test Runs 🏃‍♂️💨</summary>
   <hr>
-  <video src="https://user-images.githubusercontent.com/4256921/2e10e0ae-955c-4963-83a0-eab70c66ce9c.mp4" type="video/mp4" autoplay="autoplay" controls=0 loop></video>
+  <video src="https://user-images.githubusercontent.com/4256921/2e10e0ae-955c-4963-83a0-eab70c66ce9c.mp4" type="video/mp4"></video>
  </details>
 
 ### Basic
