@@ -1,29 +1,11 @@
-id,content,RFSH_status,RFSH_good,RFSH_bad
-1,the normal,good,"hello bash runner 1 the normal
-",
-2,"with , comma",good,"hello bash runner 2 with , comma
-",
-4,"with , comma
-end
-line",good,"hello bash runner 4 with , comma
-end
-line
-",
-3,"with 
-end
-line ",good,"hello bash runner 3 with 
-end
-line 
-",
-5,the utf8 nội dung,good,"hello bash runner 5 the utf8 nội dung
-",
-59058,the real content id,good,"hello bash runner 59058 the real content id
-",
-59058,"real content with , comma
-end
-line",good,"hello bash runner 59058 real content with , comma
-end
-line
-",
-8,"[""cơm tấm 30k"",""cơm tấm tân phú""]",good,"hello bash runner 8 [cơm tấm 30k,cơm tấm tân phú]
-",
+id,content,philosopher,RFSH_status,RFSH_good,RFSH_bad,RFSH_test_good,RFSH_test_bad
+3,"All mankind... being all equal and independent, no one ought to harm another in his life, health, liberty or possessions",John Locke,good,"No. 3 ""All mankind... being all equal and independent, no one ought to harm another in his life, health, liberty or possessions"" - John Locke",,,
+1,It does not matter how slowly you go as long as you do not stop,Confucius,good,"No. 1 ""It does not matter how slowly you go as long as you do not stop"" - Confucius",,,
+4,"History repeats itself, first as tragedy, second as farce",Karl Marx,good,"No. 4 ""History repeats itself, first as tragedy, second as farce"" - Karl Marx",,,
+2,"Quality is not an act, it is a habit",Aristotle,good,"No. 2 ""Quality is not an act, it is a habit"" - Aristotle",,,
+5,"The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts",Bertrand Russell,good,"No. 5 ""The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts"" - Bertrand Russell",,,
+8,There is no greater tyranny than that which is perpetrated under the shield of the law and in the name of justice,Montesquieu,good,"No. 8 ""There is no greater tyranny than that which is perpetrated under the shield of the law and in the name of justice"" - Montesquieu",,,
+6,"If you are lonely when you're alone, you are in bad company",Jean-Paul Sartre,good,"No. 6 ""If you are lonely when you're alone, you are in bad company"" - Jean-Paul Sartre",,,
+7,All men's miseries derive from not being able to sit in a quiet room alone,Blaise Pascal,good,"No. 7 ""All men's miseries derive from not being able to sit in a quiet room alone"" - Blaise Pascal",,,
+9,Beauty in things exists in the mind which contemplates them,David Hume,good,"No. 9 ""Beauty in things exists in the mind which contemplates them"" - David Hume",,,
+10,"Let come what comes, let go what goes. See what remains",Ramana Maharshi,good,"No. 10 ""Let come what comes, let go what goes. See what remains"" - Ramana Maharshi",,,

@@ -1,15 +1,11 @@
-id,content
-1,the normal
-2,"with , comma"
-3,"with 
-end
-line "
-4,"with , comma
-end
-line"
-5,the utf8 nội dung
-59058,the real content id
-59058,"real content with , comma
-end
-line"
-8,"[""cơm tấm 30k"",""cơm tấm tân phú""]"
+id,content,philosopher
+1,It does not matter how slowly you go as long as you do not stop,Confucius
+2,"Quality is not an act, it is a habit",Aristotle
+3,"All mankind... being all equal and independent, no one ought to harm another in his life, health, liberty or possessions",John Locke
+4,"History repeats itself, first as tragedy, second as farce",Karl Marx
+5,"The whole problem with the world is that fools and fanatics are always so certain of themselves, and wiser people so full of doubts",Bertrand Russell
+6,"If you are lonely when you're alone, you are in bad company",Jean-Paul Sartre
+7,All men's miseries derive from not being able to sit in a quiet room alone,Blaise Pascal
+8,There is no greater tyranny than that which is perpetrated under the shield of the law and in the name of justice,Montesquieu
+9,Beauty in things exists in the mind which contemplates them,David Hume
+10,"Let come what comes, let go what goes. See what remains",Ramana Maharshi

@@ -1,1 +1,1 @@
-echo "hello bash runner {{id}} {{content}}"
+echo No. {{id}} "\"{{content}}\"" - {{philosopher}}
