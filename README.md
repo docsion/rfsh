@@ -139,7 +139,7 @@ Template is the require bash script when using RFSH. It's a bash script file, so
 You can find the sample at [sample/sample.template](https://github.com/docsion/rfsh/blob/main/sample/sample.template):
 
  ```
-echo "hello bash runner {{id}} {{content}}"
+echo No. {{id}} {{content}} - {{philosopher}}
 ```
 
 You can also use [built-in](https://github.com/docsion/rfsh/blob/main/script/built_in.sh) functions in template file, likes [sample/built-in/item.template.sh](https://github.com/docsion/rfsh/blob/main/sample/built-in/item.template.sh):
