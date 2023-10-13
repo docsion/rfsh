@@ -39,7 +39,7 @@ RFSH works by 3 simple steps:
 
 ## Sample
 
-[![RFSH Sample - Hn](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn.jpg)](https://github.com/docsion/rfsh/blob/main/sample/built-in)
+[![RFSH Sample](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn.jpg)](https://github.com/docsion/rfsh/blob/main/sample)
 
 <table>
   <tr>
