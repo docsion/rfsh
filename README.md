@@ -62,7 +62,7 @@ RFSH works by 3 simple steps:
 
 ### Basic
  ```
-runflow basic -i https://github.com/docsion/rfsh/blob/main/sample/sample.csv -t https://github.com/docsion/rfsh/blob/main/sample/sample.template
+runflow basic -i sample/sample.csv -t sample/sample.template
 ```
 
 Or run the following stand-alone job script.
