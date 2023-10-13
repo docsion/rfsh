@@ -32,7 +32,7 @@ RFSH works by 3 simple steps:
 3. Run scripts concurrently.
 
 ## Features
-1. Concurrently run a template with values from a CSV file, url, github, google spreadsheets.
+1. Concurrently run a template with values from a CSV file, url, github, google spreadsheets or stdin.
 2. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
 3. Send reports to remotely stream. Support: telegram.
 4. Customize the exports .csv file.
