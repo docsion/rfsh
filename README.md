@@ -59,9 +59,10 @@ RFSH works by 3 simple steps:
 </table>
 
 <details>
-  <summary> 🎥 Sample Test Runs 🏃‍♂️💨</summary>
+  <summary> 🎥 Sample Test Runs</summary>
   <hr>
-  <video src="https://user-images.githubusercontent.com/4256921/2e10e0ae-955c-4963-83a0-eab70c66ce9c.mp4" type="video/mp4"></video>
+  <video src="https://github.com/docsion/rfsh/assets/4256921/f1cb9c5c-ce37-4b93-b226-27ed25ffda7d" type="video/mp4"></video>
+  <a href="https://github.com/docsion/rfsh/assets/4256921/f1cb9c5c-ce37-4b93-b226-27ed25ffda7d">👉 link to raw</a>
  </details>
 
 ### Basic
