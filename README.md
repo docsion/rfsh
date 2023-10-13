@@ -62,7 +62,7 @@ RFSH works by 3 simple steps:
   <summary> 🎥 Sample Test Runs</summary>
   <hr>
   <video src="https://github.com/docsion/rfsh/assets/4256921/f1cb9c5c-ce37-4b93-b226-27ed25ffda7d" type="video/mp4"></video>
-  <a href="https://github.com/docsion/rfsh/assets/4256921/f1cb9c5c-ce37-4b93-b226-27ed25ffda7d">Raw link</a>
+  <a href="https://github.com/docsion/rfsh/assets/4256921/f1cb9c5c-ce37-4b93-b226-27ed25ffda7d">Raw link (Just in case the video player does not work)</a>
  </details>
 
 ### Basic
