@@ -71,7 +71,7 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/sample/4411d688-6988-11
 # |- $ runflow --generate-job basic -i https://github.com/docsion/rfsh/blob/main/sample/sample.csv -t https://github.com/docsion/rfsh/blob/main/sample/sample.template
 ```
 
-Find more examples at [test.sh](test.sh).
+You can find more examples at [test.sh](test.sh).
 
 ## Install
 Run the following install script to install the latest version of RFSH:
