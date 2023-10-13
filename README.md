@@ -41,7 +41,7 @@ RFSH works by 3 simple steps:
 
 ## Sample
 
-[![RFSH Sample - Echo](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20echo.jpg)](https://github.com/docsion/rfsh/blob/main/sample/built-in)
+[![RFSH Sample - Hn](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn.jpg)](https://github.com/docsion/rfsh/blob/main/sample/built-in)
 
 <table>
   <tr>
