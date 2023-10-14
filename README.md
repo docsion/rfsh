@@ -39,21 +39,21 @@ RFSH works by 3 simple steps:
 
 ## Sample
 
-[![RFSH Sample](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn.jpg)](https://github.com/docsion/rfsh/blob/main/sample)
+![RFSH Sample](https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn%20v2.png)
 
-<table>
+<table style="float: left; width: 180px; margin: 0 25px 25px 25px; border-collapse: collapse">
   <tr>
     <td valign="top">
-	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20echo.jpg" alt="RFSH Sample - Echo" width="250"/>
+	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20echo%20v2.png" alt="RFSH Sample - Echo" width="250"/>
     </td>
     <td valign="top">
-	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20coffee.jpg" alt="RFSH Sample - Coffee" width="250px"/>
+	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20coffee%20v2.png" alt="RFSH Sample - Coffee" width="250px"/>
     </td>
     <td valign="top">
-	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn.jpg" alt="RFSH Sample - Hn" width="250"/>
+	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20hn%20v2.png" alt="RFSH Sample - Hn" width="250"/>
     </td>
     <td valign="top">
-	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20meme.jpg" alt="RFSH Sample - Meme" width="250"/>
+	<img src="https://raw.githubusercontent.com/docsion/rfsh/main/static/sample%20meme%20v2.png" alt="RFSH Sample - Meme" width="250"/>
     </td>
   </tr>
 </table>
