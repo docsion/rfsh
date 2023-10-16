@@ -68,3 +68,10 @@ echo "0\n1\n2\n3\n4\n5" \
     && mlr --icsv --ojson cut -f RFSH_export_file sample/coffee/get.out.csv \
       | jq -r ".[].RFSH_export_file" \
       | xargs imgcat -W 250px -p -u
+
+echo
+echo "[*] Rate limit"
+echo
+echo $ runflow basic -t sample/sample.template -i sample/sample.csv -o sample/sample.out.csv --rate-limit 10,10
+echo
+${runflow} basic -t sample/sample.template -i sample/sample.csv -o sample/sample.out.csv --rate-limit 10,10
