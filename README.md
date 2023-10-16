@@ -90,7 +90,7 @@ curl https://raw.githubusercontent.com/docsion/rfsh/main/i.sh | sh
 
 ### help
 ```
-$ ./runflow help
+$ runflow help
 runflow - Supercharge your shell scripts - Run shell scripts in batch, concurrently, fully customized with variable .
 Usage: runflow [options...] command [options...]
 
@@ -113,7 +113,7 @@ Copyright:
 
 ### basic
 ```
-$ ./runflow basic
+$ runflow basic
 runflow basic - Execute a basic flow .
 Usage: runflow basic [options...]
 
@@ -128,8 +128,9 @@ Options:
    -o file, --output file           Location of the export file .
    --test-template file             Location of the test template file, which use to validate running result. More info: https://github.com/docsion/rfsh#--test-template .
    --export-template file           Location of the export template file, which use to customize output file. More info: https://github.com/docsion/rfsh#--export-template .
-   --concurrent value               Number of concurrent workers . (default: 4)
    --retries value                  Number of retries on failure . (default: 0)
+   --concurrent value               Number of concurrent workers . (default: 4)
+   --rate-limit value               Rate limit. Usage: <number request>,<n seconds>. Example: 10,100 means 10 requests per 100 seconds .
    --dry-run                        Only print the script to --output that would execute, without executing it .
    --report-remote-stream value     Send reports to remotely stream. Support: telegram .
    --report-telegram-token value    Telegram Bot Token. More info: https://github.com/docsion/rfsh#telegram .
