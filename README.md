@@ -31,11 +31,11 @@ RFSH works by 3 simple steps:
 
 ## Features
 1. Concurrently run template with values from a CSV file, http/https URL, Github, Google Spreadsheet or stdin.
-2. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
-3. Customize exports file.
-4. Test with scripts.
-5. Send reports to remotely stream. Support: telegram.
-6. Show meme at the end of reports \ **supercharge** / 💅
+2. Effectively run with rate limit, retries on failure, dry run.
+3. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
+4. Customize exports file.
+5. Test with scripts.
+6. Send reports to remotely stream. Support: telegram.
 
 ## Sample
 
