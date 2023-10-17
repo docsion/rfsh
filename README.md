@@ -33,8 +33,8 @@ RFSH works by 3 simple steps:
 1. Concurrently run template with values from a CSV file, http/https URL, Github, Google Spreadsheet or stdin.
 2. Effectively run with rate limit, retries on failure, dry run.
 3. Generate an all-in-one job file which contains input data, template script, command flags that can run anywhere.
-4. Customize exports file.
-5. Test with scripts.
+4. Test with script template.
+5. Customize exports file's column.
 6. Send reports to remotely stream. Support: telegram.
 
 ## Sample
