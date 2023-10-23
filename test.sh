@@ -75,3 +75,13 @@ echo
 echo $ runflow basic -t sample/sample.template -i sample/sample.csv -o sample/sample.out.csv --rate-limit 10,10
 echo
 ${runflow} basic -t sample/sample.template -i sample/sample.csv -o sample/sample.out.csv --rate-limit 10,10
+
+echo
+echo "[*] Export with dry-run"
+echo
+echo "\$ echo \"0\\\n1\\\n2\\\n3\\\n4\\\n5\" | runflow basic -t sample/coffee/get.template.sh --export-template sample/coffee/export.template.sh -o sample/coffee/get.out.csv --dry-run"
+echo
+echo "0\n1\n2\n3\n4\n5" \
+  | ${runflow} basic -t sample/coffee/get.template.sh --export-template sample/coffee/export.template.sh -o sample/coffee/get.dry.out.csv --dry-run \
+    && echo "sample/coffee/get.out.csv" \
+    && mlr --icsv --opprint cut -f 0,RFSH_script,RFSH_test_script,RFSH_export_script sample/coffee/get.dry.out.csv
