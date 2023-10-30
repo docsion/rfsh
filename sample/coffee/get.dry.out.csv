@@ -1,5 +1,5 @@
-0,RFSH_script,RFSH_test_script,RFSH_export_script
-2,"#!/bin/bash
+0,RFSH_tid,RFSH_script,RFSH_test_script,RFSH_export_script
+1,0,"#!/bin/bash
 #
 # RFSH built-in functions.
 # Home: https://github.com/docsion/rfsh
@@ -125,7 +125,7 @@ rf_http https://coffee.alexflipnote.dev/random.json
 value=$(cat $(rf_result_in | jq -r '.good' | jq -r '.response') | jq -r '.file')
 echo '{""file"": ""'$value'""}'
 "
-4,"#!/bin/bash
+3,2,"#!/bin/bash
 #
 # RFSH built-in functions.
 # Home: https://github.com/docsion/rfsh
@@ -251,7 +251,7 @@ rf_http https://coffee.alexflipnote.dev/random.json
 value=$(cat $(rf_result_in | jq -r '.good' | jq -r '.response') | jq -r '.file')
 echo '{""file"": ""'$value'""}'
 "
-3,"#!/bin/bash
+4,3,"#!/bin/bash
 #
 # RFSH built-in functions.
 # Home: https://github.com/docsion/rfsh
@@ -377,7 +377,7 @@ rf_http https://coffee.alexflipnote.dev/random.json
 value=$(cat $(rf_result_in | jq -r '.good' | jq -r '.response') | jq -r '.file')
 echo '{""file"": ""'$value'""}'
 "
-1,"#!/bin/bash
+2,1,"#!/bin/bash
 #
 # RFSH built-in functions.
 # Home: https://github.com/docsion/rfsh
@@ -503,7 +503,7 @@ rf_http https://coffee.alexflipnote.dev/random.json
 value=$(cat $(rf_result_in | jq -r '.good' | jq -r '.response') | jq -r '.file')
 echo '{""file"": ""'$value'""}'
 "
-5,"#!/bin/bash
+5,4,"#!/bin/bash
 #
 # RFSH built-in functions.
 # Home: https://github.com/docsion/rfsh

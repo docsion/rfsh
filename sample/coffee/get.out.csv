@@ -1,6 +1,6 @@
-0,RFSH_status,RFSH_good,RFSH_bad,RFSH_test_good,RFSH_test_bad,RFSH_export_file
-1,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.HgIt1wiy""}",,,,https://coffee.alexflipnote.dev/vcqGrG-c300_coffee.png
-3,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.jmmvnPVR""}",,,,https://coffee.alexflipnote.dev/ATHQ0xdoa3U_coffee.jpg
-2,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.a65VLZ2M""}",,,,https://coffee.alexflipnote.dev/X2NMKN11W_Q_coffee.jpg
-4,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.zfN9Q7Yv""}",,,,https://coffee.alexflipnote.dev/l4EYtp4p6mo_coffee.png
-5,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.LfaomDXC""}",,,,https://coffee.alexflipnote.dev/JhqaHeCqL_c_coffee.png
+0,RFSH_tid,RFSH_status,RFSH_good,RFSH_bad,RFSH_test_good,RFSH_test_bad,RFSH_export_file
+1,0,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.62SVwaVm""}",,,,https://coffee.alexflipnote.dev/bbtKWclKYBA_coffee.jpg
+2,1,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.arJ5jAa7""}",,,,https://coffee.alexflipnote.dev/2rx0qvZIhoY_coffee.jpg
+3,2,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.ZPeCBGRc""}",,,,https://coffee.alexflipnote.dev/chNI8PrdPoA_coffee.jpg
+4,3,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.tfcmeCin""}",,,,https://coffee.alexflipnote.dev/JLd6jwQI9ic_coffee.jpg
+5,4,good,"{""response_code"":200,""response"":""/var/folders/f7/nj7_1pc15mj0st_k9vyq2yl80000gn/T/tmp.icVe1UJ9""}",,,,https://coffee.alexflipnote.dev/SnBkdb5F9-o_coffee.jpg
