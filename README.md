@@ -135,6 +135,7 @@ Options:
    --report-remote-stream value     Send reports to remotely stream. Support: telegram .
    --report-telegram-token value    Telegram Bot Token. More info: https://github.com/docsion/rfsh#telegram .
    --report-telegram-channel value  Telegram channel .
+   --continuous                     Run continuously on current job run until done . Note: --output must be fixed .
 ```
 
 ## Flag
