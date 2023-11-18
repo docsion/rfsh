@@ -14,7 +14,7 @@
 > @RUNFLOW_SH
 
 <p align="left">
-  Supercharge your shell scripts - Run shell scripts in batch, concurrently, fully customized with variable .
+    Run shell scripts in batch, concurrently, fully customized with variable .
 </p>
 
 
